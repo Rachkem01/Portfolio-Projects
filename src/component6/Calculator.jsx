@@ -4,12 +4,29 @@ import { useState } from "react"
 function Calculator (){
 const [InputValue, setInputValue] = useState('')
 
+const Calculation = (a,b)=>{
+if(a+b){
+return a+b
+}
+if(a*b){
+    return a*b
+}
+if(a/b){
+    return a/b
+}
+if(a-b){
+    return a-b
+}
+}
+  
+
 function display(value){
     setInputValue(InputValue + value)
 }
 
 function calculate(){
-    let answers = eval(InputValue)
+    
+    let answers = Calculation(InputValue)
     setInputValue(answers)
 
 }

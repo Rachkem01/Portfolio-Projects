@@ -1,11 +1,11 @@
 
 import SongList from './SongLists';
 import MusicPlayer from './MusicPlayer';
-import React,{useState,useRef,useEffect} from 'react';
+import React,{useState} from 'react';
 
 function Music (){
 
-    const [isPlaying, setIsPlaying] = useState(false);
+    
     
 
    const [currentSong, setCurrentSong] = useState(null);

@@ -36,19 +36,19 @@ function Portfolio () {
     <section className='SectionE' id="skills">
       
         <div>
-     <img src={html}/> 
+     <img src={html} alt='htmllogo'/> 
       <p>HTML</p>
       </div>
       <div>
-      <img src={css}/>
+      <img src={css} alt='csslogo'/>
       <p>CSS</p> 
       </div>
        <div>
-      <img src={javascript}/>
+      <img src={javascript} alt='JavascriptLogo'/>
       <p>Javascript</p>
       </div> 
       <div>
-      <img src={react}/>
+      <img src={react} alt='reactLogo'/>
       <p>React</p> 
       </div>
     </section>
@@ -60,13 +60,13 @@ function Portfolio () {
         <div>
             <ul>
                
-            <li><a href='https://rachkem01.github.io/myreactapps/' target='_blank'>Akube Shoes Store</a></li>
-            <li><a href='https://rachkem01.github.io/Indelible-Meals/' target='_blank'>Indelible Meals</a></li>
-            <li><a href='https://rachkem01.github.io/BR-Architect/' target='_blank'>BR Architect</a></li>
-            <li><a href='https://rachkem01.github.io/Taste-Filled-Restaurant/' target='_blank'>Taste Filled Restaurant</a></li>
-            <li><a href='https://rachkem01.github.io/Palindrome-App/'  target='_blank'>Palindrome App</a></li>
-                <li><a href='https://rachkem01.github.io/Rachael-Portfolio/' target='_blank'>Portfolio Demo</a></li>
-                <li><a href='https://rachkem01.github.io/Exquisite-Clothing-web/' target='_blank'>Exquisite Clothing</a></li>
+            <li><a href='https://rachkem01.github.io/myreactapps/' target='_blank' rel='noreferrer'>Akube Shoes Store</a></li>
+            <li><a href='https://rachkem01.github.io/Indelible-Meals/' target='_blank' rel='noreferrer'>Indelible Meals</a></li>
+            <li><a href='https://rachkem01.github.io/BR-Architect/' target='_blank' rel='noreferrer'>BR Architect</a></li>
+            <li><a href='https://rachkem01.github.io/Taste-Filled-Restaurant/' target='_blank' rel='noreferrer'>Taste Filled Restaurant</a></li>
+            <li><a href='https://rachkem01.github.io/Palindrome-App/'  target='_blank' rel='noreferrer'>Palindrome App</a></li>
+                <li><a href='https://rachkem01.github.io/Rachael-Portfolio/' target='_blank' rel='noreferrer'>Portfolio Demo</a></li>
+                <li><a href='https://rachkem01.github.io/Exquisite-Clothing-web/' target='_blank' rel='noreferrer'>Exquisite Clothing</a></li>
              
                 
             </ul>
